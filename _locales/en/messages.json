@@ -1,0 +1,234 @@
+{
+    "appName": {
+        "message": "Grammar Check & Paraphrasing Tool"
+    },
+    "appDesc": {
+        "message": "AI spell checker and paraphrasing tool for English, Spanish, German, French, Italian, Hindi, and 50+ languages, powered by ChatGPT"
+    },
+    "extension_modal_title": {
+        "message": "Extension settings"
+    },
+    "unsupported_site_title": {
+        "message": "This Website Not Supported by the Extension"
+    },
+    "unsupported_site_content": {
+        "message": "We are working on expanding the list of supported websites for inline checking. For now, you can use our free editor and check your text in a new tab"
+    },
+    "open_editor_btn_small": {
+        "message": "Open editor"
+    },
+    "introduce_our_free_plan": {
+        "message": "We are pleased to introduce our Free Plan"
+    },
+    "all_functional_features": {
+        "message": "All functional features"
+    },
+    "up_to_1000_requests": {
+        "message": "Up to 1000 requests per day"
+    },
+    "powered_with_chatgpt": {
+        "message": "Powered with ChatGPT"
+    },
+    "open_editor_btn": {
+        "message": "Open editor in a new tab"
+    },
+    "enable_switch_label": {
+        "message": "Enable this plugin"
+    },
+    "lang_list_label": {
+        "message": "Language"
+    },
+    "feedback_btn": {
+        "message": "Leave a feedback"
+    },
+    "visit_btn": {
+        "message": "Visit website"
+    },
+    "rate_block_title": {
+        "message": "Ready to give us a 5-star rating?"
+    },
+    "feedback_modal_title": {
+        "message": "Feedback form"
+    },
+    "feedback_success_header": {
+        "message": "Thank you for the feedback!"
+    },
+    "feedback_desc": {
+        "message": "Help us make our FroChecker better. We really appreciate your feedback and ideas on how to improve our product."
+    },
+    "feedback_email_label": {
+        "message": "Contact email"
+    },
+    "feedback_message_label": {
+        "message": "Message"
+    },
+    "feedback_submit": {
+        "message": "Submit"
+    },
+    "improve_with_ai_btn": {
+        "message": "Improve with AI"
+    },
+    "menu_title": {
+        "message": "Edit or review selection"
+    },
+    "fix_spell_and_grammar_btn": {
+        "message": "Fix spell and grammar"
+    },
+    "improve_writing_btn": {
+        "message": "Improve writing"
+    },
+    "make_shorter_btn": {
+        "message": "Make shorter"
+    },
+    "make_longer_btn": {
+        "message": "Make longer"
+    },
+    "change_tone_btn": {
+        "message": "Change tone"
+    },
+    "change_tone_professional_btn": {
+        "message": "Change tone to professional"
+    },
+    "change_tone_confident_btn": {
+        "message": "Change tone to cnfident"
+    },
+    "change_tone_friendly_btn": {
+        "message": "Change tone to friendly"
+    },
+    "simplify_language_btn": {
+        "message": "Simplify language"
+    },
+    "continue_writing_btn": {
+        "message": "Continue writing"
+    },
+    "insert_below_btn": {
+        "message": "Insert below"
+    },
+    "cancel_btn": {
+        "message": "Cancel"
+    },
+    "ai_response": {
+        "message": "AI response"
+    },
+    "response_menu_title": {
+        "message": "Edit or review selection"
+    },
+    "replace_selection_btn": {
+        "message": "Replace selection"
+    },
+    "highlight_changes": {
+        "message": "Highlight changes"
+    },
+    "copy_text": {
+        "message": "Copy text"
+    },
+
+    "status_tip_local_limit": {
+        "message": "Text Limit Exceeded"
+    },
+    "status_notice_title_local_limit": {
+        "message": "Exceeded Text Input Limit"
+    },
+    "status_notice_text_local_limit": {
+        "message": "Sorry, but you've exceeded the maximum character limit for text input. Please shorten your text."
+    },
+    "status_tip_unsupported_site": {
+        "message": "Website Not Supported"
+    },
+    "status_notice_title_unsupported_site": {
+        "message": "Website Not Supported by the Extension"
+    },
+    "status_notice_text_unsupported_site": {
+        "message": "Unfortunately, this website is not compatible with our extension."
+    },
+    "status_tip_plugin_disabled": {
+        "message": "Plugin Disabled"
+    },
+    "status_notice_title_plugin_disabled": {
+        "message": "Plugin Is Disabled"
+    },
+    "status_notice_text_plugin_disabled": {
+        "message": "The plugin is currently disabled. Please enable it to continue."
+    },
+    "status_tip_no_backend_answer": {
+        "message": "No Server Response"
+    },
+    "status_notice_title_backend_answer": {
+        "message": "No Response from Server"
+    },
+    "status_notice_text_backend_answer": {
+        "message": "We're sorry, but we couldn't receive a response from the server. Please check your internet connection or try again later."
+    },
+    "status_tip_unsupported_language": {
+        "message": "Unsupported Language"
+    },
+    "status_notice_title_unsupported_language": {
+        "message": "Unsupported Language Detected"
+    },
+    "status_notice_text_unsupported_language": {
+        "message": "We don't support the language in which the text is entered. Please enter text in a supported language."
+    },
+    "status_tip_daily_limit_reached": {
+        "message": "Daily Limit Exhausted"
+    },
+    "status_notice_title_daily_limit_reached": {
+        "message": "Daily Limit Exhausted on Current Plan"
+    },
+    "status_notice_text_daily_limit_reached": {
+        "message": "You've reached the daily limit allowed on your current plan. Consider upgrading or wait until your limit resets."
+    },
+    "status_tip_monthly_limit_reached": {
+        "message": "Monthly Limit Exhausted"
+    },
+    "status_notice_title_monthly_limit_reached": {
+        "message": "Monthly Limit Exhausted on Current Plan"
+    },
+    "status_notice_text_monthly_limit_reached": {
+        "message": "Your usage has exceeded the monthly limit on your current plan. Please upgrade or wait for the monthly reset."
+    },
+    "status_tip_overall_limit_reached": {
+        "message": "Overall Limit Exceeded"
+    },
+    "status_notice_title_overall_limit_reached": {
+        "message": "Overall Limit Exceeded"
+    },
+    "status_notice_text_overall_limit_reached": {
+        "message": "The extension has exceeded the overall usage limit. We apologize for the inconvenience. Please try again later"
+    },
+    "status_tip_not_required_version": {
+        "message": "Outdated Plugin Version"
+    },
+    "status_notice_title_not_required_version": {
+        "message": "Plugin Version is Outdated"
+    },
+    "status_notice_text_not_required_version": {
+        "message": "The installed plugin version is too old. Please update to the latest version for optimal performance."
+    },
+    "status_tip_user_disabled": {
+        "message": "User Blocked"
+    },
+    "status_notice_title_user_disabled": {
+        "message": "User Blocked"
+    },
+    "status_notice_text_user_disabled": {
+        "message": "Sorry, but your account has been blocked. Please contact support for further assistance."
+    },
+    "status_tip_min_text_limit": {
+        "message": "Text is too Short"
+    },
+    "status_notice_title_min_text_limit": {
+        "message": "Your Text is too Short for Checking"
+    },
+    "status_notice_text_min_text_limit": {
+        "message": "Oops! Your text is too short for checking. Please provide a longer text."
+    },
+    "status_tip_max_text_limit": {
+        "message": "Text is too Long"
+    },
+    "status_notice_title_max_text_limit": {
+        "message": "Your Text is too Long for Checking"
+    },
+    "status_notice_text_max_text_limit": {
+        "message": "Sorry, but you've exceeded the maximum character limit for text input. Please shorten your text."
+    }
+}

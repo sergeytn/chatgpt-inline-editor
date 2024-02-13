@@ -1,0 +1,8 @@
+{
+"appName": {
+"message": "Vérificateur de grammaire et d'orthographe"
+},
+"appDesc": {
+"message": "Vérificateur de grammaire et d'orthographe alimenté par ChatGPT pour l'anglais, l'espagnol, le portugais, le français, l'italien et l'allemand."
+}
+}

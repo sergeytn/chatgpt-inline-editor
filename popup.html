@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/popup.css">
+</head>
+
+<body>
+    <div class="-frogtool-main-modal" data-main_modal>
+        <div class="-frogtool-modal-main__square">
+            <div class="-frogtool-modal__head">
+                <div class="-frogtool-modal__title">
+                    <span data-localize="extension_modal_title"></span>
+                </div>
+            </div>
+
+            <div class="-frogtool-modal__content">
+                <!--
+                <div class="-frogtool-modal__notice" data-unsupported_notice>
+                    <div class="-frogtool-modal__notice-title" data-localize="unsupported_site_title"></div>
+                    <div class="-frogtool-modal__notice-content" data-localize="unsupported_site_content"></div>
+                    <div class="-frogtool-modal__editor-btn-small-wrap">
+                        <button class="-frogtool-modal__editor-btn-small" data-open_editor_btn data-localize="open_editor_btn_small"></button>
+                    </div>
+                </div>
+                -->
+
+                <div class="-frogtool-modal__introduce" data-unsupported_hide>
+                    <div class="-frogtool-modal__introduce-content">
+                        <div class="-frogtool-modal__introduce-title" data-localize="introduce_our_free_plan"></div>
+
+                        <div class="-frogtool-modal__introduce-list">
+                            <div class="-frogtool-modal__introduce-item" data-localize="all_functional_features"></div>
+                            <div class="-frogtool-modal__introduce-item" data-localize="up_to_1000_requests"></div>
+                            <div class="-frogtool-modal__introduce-item" data-localize="powered_with_chatgpt"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--
+                <div class="-frogtool-modal__editor-btn-wrap" data-unsupported_hide>
+                    <button class="-frogtool-modal__editor-btn" data-open_editor_btn data-localize="open_editor_btn"></button>
+                </div>
+                -->
+
+                <!--
+                <div class="-frogtool-modal__upgrade">
+                    <div class="-frogtool-modal__upgrade-title">Get advanced writing features</div>
+
+                    <div class="-frogtool-modal__upgrade-list">
+                        <div class="-frogtool-modal__upgrade-item">Unlimited content rewriter</div>
+                        <div class="-frogtool-modal__upgrade-item">Advanced writing corrections</div>
+                        <div class="-frogtool-modal__upgrade-item">Dictionary</div>
+                    </div>
+
+                    <div class="-frogtool-modal__upgrade-btns">
+                        <a href="#upgrade" class="-frogtool-btn -frogtool-btn--green">Upgrade to Pro</a>
+                    </div>
+                </div>
+                -->
+
+                <div class="-frogtool-modal__nav">
+                    <div class="-frogtool-modal__nav-list">
+                        <div class="-frogtool-modal__nav-item">
+                            <div class="-frogtool-modal__nav-item-title">
+                                <span data-localize="enable_switch_label"></span>
+                            </div>
+
+                            <div class="-frogtool-input">
+                                <input type="checkbox" data-state_switch id="enable-plugin" class="-frogtool-input__switch" />
+                                <label class="-frogtool-input__switch-label" for="enable-plugin"></label>
+                            </div>
+                        </div>
+                        <!--
+                        <div class="-frogtool-modal__nav-item -frogtool-modal__nav-item-level">
+                            <div class="-frogtool-modal__nav-item-title">
+                                <span data-localize="select_ai_enhanecements_level"></span>
+                            </div>
+
+                            <div class="-frogtool-modal__nav-item-radio_row">
+                                <label class="radio-custom">
+                                    <input type="radio" name="ai_tweaks" value="less" data-ai_tweaks="less">
+                                    <svg class="radio-custom-view" width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.5" y="0.5" width="10" height="10" rx="5" fill="white" stroke="#6463FF"/>
+                                        <rect class="rect-in" x="2" y="2" width="7" height="7" rx="3.5" fill="#6463FF"/>
+                                    </svg>
+                                    <div class="label-text" data-localize="less_ai_text_tweaks"></div>
+                                </label>
+                            </div>
+                            <div class="-frogtool-modal__nav-item-radio_row">
+                                <label class="radio-custom">
+                                    <input type="radio" name="ai_tweaks" value="more" data-ai_tweaks="more">
+                                    <svg class="radio-custom-view" width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.5" y="0.5" width="10" height="10" rx="5" fill="white" stroke="#6463FF"/>
+                                        <rect class="rect-in" x="2" y="2" width="7" height="7" rx="3.5" fill="#6463FF"/>
+                                    </svg>
+                                    <div class="label-text" data-localize="more_ai_text_tweaks"></div>
+                                </label>
+                            </div>
+                        </div>
+                        -->
+                        <!--
+                        <div class="-frogtool-modal__nav-item -frogtool-modal__nav-item-label" data-frogtoolmodal="rate-us">
+                            <div class="-frogtool-modal__nav-item-title">
+                                <img src="img/icons/nav/star.svg" alt="Rate Fro Extension" width="16" height="16" class="-frogtool-modal__nav-icons">
+                                Rate Fro Extension
+                            </div>
+                        </div>
+
+                        <div class="-frogtool-modal__nav-item -frogtool-modal__nav-item-label" data-frogtool-modal="feedback">
+                            <div class="-frogtool-modal__nav-item-title">
+                                <img src="img/icons/nav/feedback.svg" alt="Leave a feedback" width="16" height="16" class="-frogtool-modal__nav-icons">
+                                Leave a feedback
+                            </div>
+                        </div>
+
+                        <div class="-frogtool-modal__nav-item -frogtool-modal__nav-item-label" data-frogtool-modal="share">
+                            <div class="-frogtool-modal__nav-item-title">
+                                <img src="img/icons/nav/liked.svg" alt="Share this plugin" width="16" height="16" class="-frogtool-modal__nav-icons">
+                                Share this plugin
+                            </div>
+                        </div> 
+
+                        <a href="#use-token" target="_blank" class="-frogtool-modal__nav-item -frogtool-modal__nav-item-label">
+                            <div class="-frogtool-modal__nav-item-title">
+                                <img src="img/icons/nav/setting.svg" alt="Use my own ChatGPT token" width="16" height="16" class="-frogtool-modal__nav-icons">
+                                Use my own ChatGPT token
+                            </div>
+                        </a> 
+                        -->
+                        <!--
+                        <div class="-frogtool-modal__nav-item">
+                            <div class="-frogtool-modal__nav-item-title">
+                                <span data-localize="lang_list_label"></span>
+                            </div>
+
+                            <div class="-frogtool-dropdown" data-dropdown="lang">
+                                <button class="-frogtool-btn -frogtool-btn--reset -frogtool-dropdown__btn" data-dropdown_btn></button>
+
+                                <ul class="-frogtool-dropdown__list" data-dropdown_list></ul>
+
+                                <input type="text" name="select-category" value="" class="-frogtool-dropdown__input" data-dropdown_input>
+                            </div>
+                        </div>
+                        -->
+
+                        <div class="-frogtool-modal__nav-item -frogtool-modal__nav-item-label" data-feedback_open_btn>
+                            <div class="-frogtool-modal__nav-item-title">
+                                <img src="img/icons/nav/feedback.svg" alt="Leave feedback" width="16" height="16" class="-frogtool-modal__nav-icons">
+                                <span data-localize="feedback_btn"></span>
+                            </div>
+                        </div>
+
+                        <a href="https://wordsuperb.com/" target="_blank" class="-frogtool-modal__nav-item -frogtool-modal__nav-item-label">
+                            <div class="-frogtool-modal__nav-item-title">
+                                <img src="img/icons/nav/website.svg" alt="Visit website" width="16" height="16" class="-frogtool-modal__nav-icons">
+                                <span data-localize="visit_btn"></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="-frogtool-modal_rate" data-rate_block>
+                    <div class="-frogtool-modal_rate-title" data-localize="rate_block_title"></div>
+                    <div class="-frogtool-modal_rate-controls">
+                        <button class="-frogtool-modal_rate-controls-star" title="1 star" data-rate_star="1"></button>
+                        <button class="-frogtool-modal_rate-controls-star" title="2 star" data-rate_star="2"></button>
+                        <button class="-frogtool-modal_rate-controls-star" title="3 star" data-rate_star="3"></button>
+                        <button class="-frogtool-modal_rate-controls-star" title="4 star" data-rate_star="4"></button>
+                        <button class="-frogtool-modal_rate-controls-star" title="5 star" data-rate_star="5"></button>
+                    </div>
+                </div>
+                <!--
+                <div class="-frogtool-modal__btns">
+                    <a href="#login" class="-frogtool-btn -frogtool-btn--blue -frogtool-btn--login">Log in</a>
+                </div>
+                -->
+            </div>
+        </div>
+    </div>
+    
+    <div class="-frogtool-modal" data-feedback_modal>
+        <div class="-frogtool-modal__square">
+            <div class="-frogtool-modal__head">
+                <div class="-frogtool-modal__title" data-localize="feedback_modal_title"></div>
+                <button class="-frogtool-btn -frogtool-btn--reset -frogtool-btn--cross" data-close></button>
+            </div>
+
+            <div class="-frogtool-modal__content" data-feedback_form_wrapper>
+                <form class="-frogtool-form -frogtool-feedback__form" data-feedback_form>
+                    <!-- успех -->
+                    <div class="-frogtool-form__success" data-success_message data-localize="feedback_success_header"></div>
+
+                    <div class="-frogtool-form__desc" data-localize="feedback_desc"></div>
+                
+                    <div class="-frogtool-input" data-email_block>
+                        <label for="-frogtool-feedback-email" class="-frogtool-input__label" data-localize="feedback_email_label"></label>
+                        <input type="text" name="-frogtool-feedback-email" id="-frogtool-feedback-email" class="-frogtool-input__elem" data-email>
+                    </div>
+
+                    <div class="-frogtool-input" data-message_block>
+                        <label for="-frogtool-feedback-massage" class="-frogtool-input__label" data-localize="feedback_message_label"></label>
+                        <textarea name="-frogtool-feedback-massage" cols="30" rows="6" id="-frogtool-feedback-massage" class="-frogtool-input__elem" data-message></textarea>
+                    </div>
+
+                    <div class="-frogtool-form__footer">
+                        <button type="submit" aria-label="Send form" class="-frogtool-btn -frogtool-btn--blue -frogtool-form__send" data-localize="feedback_submit"></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="./scripts/popup.js"></script>
+</body>
+</html>
